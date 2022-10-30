@@ -31,13 +31,13 @@ Installation:
 
 `npm install react-router-dom`
 
-`npm install react-router-dom`
-
 `npm install @material-ui/core`
 
 
 To Start Application:
 
 `npm start`
+
+then run the URL http://localhost:3000/
 
 
