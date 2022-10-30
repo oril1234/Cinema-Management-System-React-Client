@@ -4,8 +4,7 @@ This repository is of a cinema management system React client in which data rela
 
 Users in the system can add, edit delete members and movies, as well as registering members to movies - all depending on permissions granted to them by the admin, who is the only one who can manage other users.
 
-The client oprates against one main server located [here](https://github.com/oril1234/Cinema-Management-System-Main-Flask-Server) and the data fetched from it is stored and handled in 
-Redux, and thus accessible through multiple componenets.
+The client communicates with one main server located [here](https://github.com/oril1234/Cinema-Management-System-Main-Flask-Server) using the API services in the client. The data fetched from the server is stored and managed in Redux, and thus accessible through multiple componenets.
 The data in Redux is:
 1. The data of the user who is currently logged in to the device that access the client
 2. All the users in the system arranged in a Map data structure in which the id of each user is the key, and the user data is the value
