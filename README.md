@@ -22,7 +22,7 @@ This is a detailed hierarchy of the components:
 ![diagram drawio (7)](https://user-images.githubusercontent.com/49225452/198881268-1dbfd325-5f66-4166-b356-2a950a16f947.png)
 
 
-##Setup And Installation
+## Setup And Installation
 Clone down this repository. You will need node and npm installed globally on your machine.
 
 Installation:
