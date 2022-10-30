@@ -10,6 +10,7 @@ The data in Redux is:
 2. All the members in the system arranged in a Map data structure in which the member id is the key, and the member data is the value
 3. All the movies subscriptions arranged in a Map data structure in which the movie id is the key, and an array of all the subscriptions to that movie is the value
 4. All the members subscriptions arranged in a Map data structure in which the member id is the key, and an array of all the subscriptions to movies made by this member is the value
+
 In the project directory, you can run:
 
 ### `npm start`
