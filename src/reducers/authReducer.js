@@ -1,5 +1,5 @@
 
-//Reduct reducer to store the data of logged in user
+//Redux reducer to store the data of logged in user
 export const authReducer = (state = { loggedInUser : {}}, action) =>
 {
     switch(action.type)
