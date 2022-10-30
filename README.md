@@ -1,9 +1,9 @@
-# Getting Started with Create React App
+# Cinema Management System Client 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is of a cinema management system React client in which data related to movies shown in the cinema, members who can subscribe to them, and the subscriptions themselves is handled by the user.
+a user in the system can add,edit delete members and movies, as well as registering members to movies - all according to permissions granted to the user by the admin
 
-## Available Scripts
-
+The client oprates against one main server located [here](https://github.com/oril1234/Cinema-Management-System-Main-Flask-Server) and the data fetched from it is stored in redux and is accessible through multiple componenets using Redux.
 In the project directory, you can run:
 
 ### `npm start`
