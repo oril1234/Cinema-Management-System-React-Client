@@ -6,10 +6,12 @@ a user in the system can add,edit delete members and movies, as well as register
 The client oprates against one main server located [here](https://github.com/oril1234/Cinema-Management-System-Main-Flask-Server) and the data fetched from it is stored and handled in 
 Redux, and thus accessible through multiple componenets.
 The data in Redux is:
-1. All the movies in the system arranged in a Map data structure in which the movie id is the key, and the movie data is the value.
-2. All the members in the system arranged in a Map data structure in which the member id is the key, and the member data is the value
-3. All the movies subscriptions arranged in a Map data structure in which the movie id is the key, and an array of all the subscriptions to that movie is the value
-4. All the members subscriptions arranged in a Map data structure in which the member id is the key, and an array of all the subscriptions to movies made by this member is the value
+1. The data of the user that is currently logged in to the system if there is one
+2. All the users in the system arranged in a Map data structure in which the movie id is the key, and the movie data is the value.
+3. All the movies in the system arranged in a Map data structure in which the movie id is the key, and the movie data is the value.
+4. All the members in the system arranged in a Map data structure in which the member id is the key, and the member data is the value
+5. All the movies subscriptions arranged in a Map data structure in which the movie id is the key, and an array of all the subscriptions to that movie is the value
+6. All the members subscriptions arranged in a Map data structure in which the member id is the key, and an array of all the subscriptions to movies made by this member is the value
 
 In the project directory, you can run:
 
