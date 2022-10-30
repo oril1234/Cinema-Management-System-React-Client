@@ -1,8 +1,8 @@
 # Cinema Management System Client 
 
-This repository is of a cinema management system React client in which data related to movies shown in the cinema, members who can subscribe to them, and the subscriptions themselves is handled by the user.
+This repository is of a cinema management system React client in which data related to movies shown in the cinema, members who can subscribe to them, and the subscriptions themselves is handled by the users.
 
-A user in the system can add,edit delete members and movies, as well as registering members to movies - all depending on permissions granted to the user by the admin, who is the only one who can handle other users.
+Users in the system can add, edit delete members and movies, as well as registering members to movies - all depending on permissions granted to them by the admin, who is the only one who can manage other users.
 
 The client oprates against one main server located [here](https://github.com/oril1234/Cinema-Management-System-Main-Flask-Server) and the data fetched from it is stored and handled in 
 Redux, and thus accessible through multiple componenets.
